@@ -1,4 +1,7 @@
 node("agent_01"){
+  stage("Checkout code"){
+    checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/mathuria/CICDAssignment.git']]])
+  }
   stage("Compile"){
     println "compiling"
   }
