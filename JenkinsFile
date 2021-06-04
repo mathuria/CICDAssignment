@@ -1,0 +1,11 @@
+node("agent_01"){
+  stage("Compile"){
+    println "compiling"
+  }
+  stage("Test"){
+    println "Test"
+  }
+  stage("Deploy"){
+    println "Deploy"
+  }
+}
