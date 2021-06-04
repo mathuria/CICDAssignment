@@ -14,6 +14,6 @@
 <body>
  <h1 align="center">Caltech Simplilearn Assignment</h1>
  <h1 align="center">Deployed code for testing Tomcat usage</h1>
-<h1 align="center">CCICD assignment app is deployed on Tomcat!</h1>
+<h1 align="center">CICD assignment app is deployed on Tomcat!</h1>
 </body>
 </html>
